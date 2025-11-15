@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL: (https://hypertags.github.io/blog-preview-card-main/)
+- Solution URL: [frontend mentor](https://www.frontendmentor.io/solutions/qr-code-component--pELIpnmbT)
+- Live Site URL: [GitHub pages](https://hypertags.github.io/blog-preview-card-main/)
 
 ## My process
 
@@ -64,11 +64,11 @@ Even though I can find my way around flexbox and grid, I seek to learning more a
 
 ### Useful resources
 
-- [Colors and Shadows](https://www.youtube.com/devslopes) - This helped me understand the possible values that can be given to the box shadow style and what they mean. It was really helpful.
+- [Colors and Shadows - Devslopes](https://youtu.be/EMJYCGaaIUo?si=XKVh2jakuS_qlHdA) - This helped me understand the possible values that can be given to the box shadow style and what they mean. It was really helpful.
 
 ## Author
 
-- GitHub - [David Hype (HyperTags)](https://github.com/HyperTags)
+- GitHub - [@HyperTags](https://github.com/HyperTags)
 - Frontend Mentor - [@HyperTags](https://www.frontendmentor.io/profile/HyperTags)
 - LinkedIn - [David Addo](https://linkedIn.com/in/david-addo-6ba707350)
 
