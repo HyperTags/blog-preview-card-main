@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [frontend mentor](https://www.frontendmentor.io/solutions/qr-code-component--pELIpnmbT)
+- Solution URL: [frontend mentor](https://www.frontendmentor.io/solutions/blog-preview-card-sItDk6nBTV)
 - Live Site URL: [GitHub pages](https://hypertags.github.io/blog-preview-card-main/)
 
 ## My process
