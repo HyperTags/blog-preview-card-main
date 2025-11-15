@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="developer" content="David Hype - (HyperTags)">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preload" as="font" href="./assets/fonts/static/Figtree-Medium.ttf" type="font/ttf" crossorigin>
+  <link rel="preload" as="font" href="./assets/fonts/static/Figtree-ExtraBold.ttf" type="font/ttf" crossorigin>
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    @font-face {
+      font-family: Figtree-Regular;
+      src: url(./assets/fonts/static/Figtree-Medium.ttf)format("truetype");
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: Figtree-Bold;
+      src: url(./assets/fonts/static/Figtree-ExtraBold.ttf)format("truetype");
+      font-style: normal;
+      font-weight: 800;
+      font-display: swap;
+    }
+
+    body {
+      background-color: hsl(47, 88%, 63%);
+    }
+
+    .container {
+      width: min(1440px, 100%);
+      height: 100dvh;
+      display: grid;
+      place-items: center;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: hsl(0, 0%, 100%);
+      width: 384px;
+      height: 522px;
+      gap: 24px;
+      padding: 24px;
+      border-radius: 20px;
+      border: 1px solid hsl(0, 0%, 7%);
+      box-shadow: 8px 8px hsl(0, 0%, 7%);
+    }
+
+    .card img {
+      width: 100%;
+      height: fit-content;
+      border-radius: 10px;
+    }
+
+    .card p {
+      font-family: Figtree-Regular;
+      font-size: 1rem;
+    }
+
+    .card-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 24px;
+    }
+
+    .card-info p:first-child {
+      background-color: hsl(47, 88%, 63%);
+      padding: 5px 10px;
+      width: fit-content;
+      border-radius: 5px;
+    }
+
+    .card-info p:nth-child(2) {
+      color: hsl(0, 0%, 7%);
+    }
+
+    .card-info p:last-child {
+      color: hsl(0, 0%, 42%);
+    }
+
+    .card p:first-child, .profile p {
+      font-family: Figtree-Bold;
+    }
+
+    .card h1 {
+      font-family: Figtree-Bold;
+      font-size: 24px;
+    }
+
+    .card h1:hover {
+      color: hsl(47, 88%, 63%);
+      cursor: pointer;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .profile img {
+      width: 30px;
+      height: auto;
+    }
+
+    @media(max-width: 375px) {
+      .card {
+        width: 327px;
+        height: 501px;
+        padding: 20px;
+      }
+
+      .card p {
+        font-size: 0.8rem;
+      }
+
+      .card h1 {
+        font-size: 20px;
+      }
+    }
+  </style>
+
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <img src="./assets/images/illustration-article.svg" alt="an illustration">
+
+      <div class="card-info">
+        <p>Learning</p>
+        <p>Published 21 Dec 2023</p>
+        <h1>HTML & CSS foundations</h1>
+        <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      </div>
+
+      <div class="profile">
+        <img src="./assets/images/image-avatar.webp" alt="profile image">
+        <p>Greg Hooper</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
